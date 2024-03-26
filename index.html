@@ -350,6 +350,7 @@
         const selectedDirection = document.getElementById('direction').value;
         visualizer.graph.SetDirectionEdges(selectedDirection);
         visualizer.SetDirectionEdgesCY(selectedDirection);
+        changeGraph(); //Показываем изменения
     }
 
     //Установить вес рёбер
